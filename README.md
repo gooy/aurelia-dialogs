@@ -1,6 +1,6 @@
 # Aurelia Dialogs
 
-Creates dialogs and takes care of their lifecycle events and depths.
+A dialog service that creates dialogs/modals from a VM and takes care of their lifecycle events and depths.
 
 ## Demo
 
