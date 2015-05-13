@@ -31,8 +31,6 @@ export class DialogService {
     for(let key in options){
       if(options[key]) this[key] = options[key];
     }
-
-
   }
 
   appReady(){
@@ -42,10 +40,7 @@ export class DialogService {
 
   setAnchor(el){
     this.anchor = el||document.body;
-
-
     if(this.container.parentNode) this.container.parentNode.removeChild(this.container);
-    console.log("test", this.container, this.anchor);
     this.anchor.appendChild(this.container);
   }
 

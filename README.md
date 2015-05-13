@@ -2,6 +2,10 @@
 
 Creates dialogs and takes care of their lifecycle events and depths.
 
+## Demo
+
+- [Demo App](http://gooy.github.io/aurelia-dialogs-demo)
+
 ## Installation
 
     jspm install gooy/aurelia-dialog
