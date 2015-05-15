@@ -8,13 +8,13 @@ A dialog service that creates dialogs/modals from a VM and takes care of their l
 
 ## Installation
 
-    jspm install gooy/aurelia-dialog
+    jspm install github:gooy/aurelia-dialogs
 
 ## Usage
 
 Register it with the framework.
 
-    aurelia.use.plugin("gooy/aurelia-dialog");
+    aurelia.use.plugin("gooy/aurelia-dialogs");
 
 inject the service and use it.
 
